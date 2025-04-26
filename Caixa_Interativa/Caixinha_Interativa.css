@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: rgb(62, 61, 61);
+    color: white;
+}
+#clique{
+    border: solid white ;
+    height: 30px;
+    width: 300px;
+    margin:auto;
+}
+.caixinha{
+    margin: auto;
+    margin-top: 50px;
+    border: solid white;
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    font-size: 35px;
+} 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador De Senhas</title>
+    <link rel="stylesheet" href="GeradorDesenha.css">
+
+</head>
+<body>
+    <script src="GeradorDesenha.js"></script>
+    <header>    
+        <h1>Gerador de Senhas</h1>
+    </header>
+
+    <section>
+        <label for="digitosSenha"><h3>Escolha um tamanho para a senha de 6 à 24 digitos:</h3></label> 
+        <input type="number" id="digitosSenha">
+    
+        <h3>Dígitos:</h3>   
+            <input type="checkbox" class="tiposDigitos"> Maiúsculas <br>
+            <input type="checkbox" class="tiposDigitos"> Minúsculas <br>
+            <input type="checkbox" class="tiposDigitos"> Números <br>
+            <input type="checkbox" class="tiposDigitos"> Símbolos <br>    <br>    
+            <button id="CriarSenha" type="submit" onclick="CriarSenha()">Gerar Senha</button>
+            <br>
+
+            <br>
+            <select id="Senhas" size="6"></select>
+
+            <div id="res"></div>
+
+
+
+    </section>
+    <footer>
+        <a href="https://github.com/wallacemaia2007">Wallace_maia</a>
+    </footer>
+
+    
+</body>
+</html>

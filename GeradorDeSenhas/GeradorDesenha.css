@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding-top: 90px;
+    margin: auto;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: wheat;
+    text-align: center;
+    padding: 10px;
+}
+header{
+    color: rgb(0, 0, 0);
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+section{
+    border: 1px solid rgb(96, 96, 96);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba(96, 96, 96, 0.09);
+
+}
+#CriarSenha{
+    width: 150px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: wheat;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#digitosSenha{
+    width: 350px;
+    background-color: wheat;
+    border: none;
+}
+#Senhas{
+    height: 100px;
+    width: 350px;
+    background-color: wheat;
+    border: none;
+
+}

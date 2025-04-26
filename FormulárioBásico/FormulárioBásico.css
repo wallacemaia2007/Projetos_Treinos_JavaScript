@@ -1,0 +1,52 @@
+body { /*CORPO DA PÁGINA*/
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(19, 5, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+#formulario {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#Sexo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#Sexo input {
+    width: auto;
+    margin-right: 5px;
+}
+
+button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: rgb(211, 183, 238);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(180, 150, 210);
+}

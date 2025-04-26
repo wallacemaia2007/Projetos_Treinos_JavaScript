@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(246, 0, 0, 0.296);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#div1{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.503);
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+footer{
+    text-align:center;
+    color: white;
+    padding: 10px;
+
+}
+header{
+    color: white;
+    text-align: center;
+}
+#tempo{
+position: relative;
+top: 10px;
+border:solid 1px
+}
+#enviar_horas{
+    position: relative;
+    top: 20px;
+}
+#img{
+}

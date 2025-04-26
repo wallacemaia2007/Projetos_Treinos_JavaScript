@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JavaScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="FormulárioBásico.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Treinos</title>
+</head>
+<body>
+    <form style="line-height: 25px;padding: 5em;">
+        <fieldset id="formulario">
+            <h1>Formulário Básico</h1>
+            
+            <div>
+                <label for="Nome">Nome Completo: </label><br>  
+                <input type="text" name="Nome" id="Nome"><br>
+            </div>
+            
+            <div>
+                <label for="Gmail">Gmail:</label><br> 
+                <input type="email" name="Gmail" id="Gmail"><br>
+            </div>
+            
+            <div>
+                <label for="Gmailn2">Digite novamente o  Gmail:</label><br> 
+                <input type="email" name="Gmailn2" id="Gmailn2"><br>
+            </div>
+            
+            <div>
+                <label for="Senha">Senha:</label><br> 
+                <input type="password" name="Senha" id="Senha"><br>
+            </div>
+            
+            <div>
+                <label for="CPF" >CPF:</label><br> 
+                <input type="text" id="CPF" name="CPF" >
+            </div>
+            
+            <div id="Sexo">
+                <label>Sexo:</label> 
+                <input type="radio" name="sexo" value="M"> Masculino
+                <input type="radio" name="sexo" value="F" height=""> Feminino<br>
+            </div>
+            
+            <div>
+                <label for="Cep">Cep:</label> 
+                <input type="text" name="Cep" id="Cep">
+            </div>
+            
+            <div>
+                <label for="idade">Nascimento: </label> 
+                <input type="date" name="idade" id="idade"><br>
+            </div>
+
+            <button type="button" onclick="enviarFormulario()">Enviar</button>
+            
+        </fieldset>
+    </form>
+    <script src="FormulárioBásico.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

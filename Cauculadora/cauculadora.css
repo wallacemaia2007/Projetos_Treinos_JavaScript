@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(245, 246, 246);
+    text-align: center;
+}
+header{
+
+}
+section{
+
+}
+footer{
+
+}
+#div1{
+background-color: green;
+height: 650px;
+width: 620px;
+margin: auto;
+box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.278);
+padding: 10px;
+}
+.caixa{
+    border: solid 1px;
+    width: 150px;
+    height: 120px;
+    position: relative;
+    background-color:  white;
+    font-size: 40px; 
+}
+.numeros{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    position: relative; 
+    top: 5px;
+}
+#tela{
+    font-size: 65px;
+    text-align: right;
+    
+
+}
