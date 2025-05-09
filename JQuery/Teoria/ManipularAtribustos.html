@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterando Atributos</title>
+    <!--CARREGANDO ARQUIVO JQUERY-->
+    <script src="/JQuery/jquery-3.7.1.min.js""></script>
+    <!--SCRIPT DO JQUERY-->
+    <script>
+        // QUANDO O DOCUMENTO JA FOR CARREGADO
+        $(document).ready(function(){
+            //AQUI É ONDE FICARÁ TODO O CÓDIGO:
+
+            //SELECIONAR E ALTERAR O ELEMENTO IMG
+            $("img").attr({
+                "width":"200",
+                "title":"Aterando title"
+            })
+            /*
+            OS ATRIBUTOS SÃO AQUELES QUE COLOCAMOS NO HTML PARA MODIFICAR ALGO
+            COMO POR EXEMPLO EM UMA DIV, SERIA O ID, WIDTH, HEIGHT,CLASS,...
+            */
+        });
+
+
+    </script>
+</head>
+<body>
+
+    <img src="/JQuery/imagens/jQueryLogo.jpeg" alt="Logo JQuery">
+    
+</body>
+</html>

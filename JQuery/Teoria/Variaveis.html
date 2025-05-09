@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis</title>
+    <!--CARREGANDO ARQUIVO JQUERY-->
+    <script src="/JQuery/jquery-3.7.1.min.js""></script>
+    <!--SCRIPT DO JQUERY-->
+    <script>
+        // QUANDO O DOCUMENTO JA FOR CARREGADO
+        $(document).ready(function(){
+            //AQUI É ONDE FICARÁ TODO O CÓDIGO:
+
+            //VARIÁVEIS
+            var campo = $("input").val(); // .val para pegar o valor do campo input
+            var titulo = $("#titulo").html(); // o .html irá pegar oque estiver escrito no id h1
+            var subtitulo = $(".subtitulo").html(); // .html para pegar oq estiver escrito na classe h2
+            
+            
+            alert(campo);
+            alert(titulo);
+            alert(subtitulo);
+
+
+
+
+        });
+
+
+    </script>
+</head>
+<body>
+    <input type="text" value="campo do nome">
+    <h1 id="titulo">Olá estou praticando JQuery</h1>
+    <h2 class="subtitulo">Testando as variáveis</h2>
+    
+</body>
+</html>

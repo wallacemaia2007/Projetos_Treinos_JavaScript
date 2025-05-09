@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Fade!</title>
+    <!--CARREGANDO ARQUIVO JQUERY-->
+    <script src="/JQuery/jquery-3.7.1.min.js"></script>
+    <!--SCRIPT DO JQUERY-->
+    <script>
+        // QUANDO O DOCUMENTO JA FOR CARREGADO
+        $(document).ready(function(){
+
+            //OCULTANDO O H1
+            $("h1").css("display","none");
+
+            //EXIBIR
+            $("#exibir").click(function() {
+                $("h1").fadeIn();
+            })
+            
+            //OCULTAR
+            $("#ocultar").click(function(){
+                $("h1").fadeOut(400);
+
+                /*
+                 PARA INSERIR TEMPO
+                 O VALOR DEFAULT É DE 0.4 SEGUNDOS
+                 COLOCAR COMO PARAMETRO O TEMPO EM MILISEGUNDOS
+                 FADEoUT(3000) ==> 3 SEGUNDOS
+                */
+            })
+
+        });
+
+
+    </script>
+</head>
+<body>
+
+    <button id="exibir">Exibir</button>
+    <button id="ocultar">Ocultar</button>
+
+    <hr>
+
+    <h1>Aprendendo JQuery!</h1>
+    
+</body>
+</html>

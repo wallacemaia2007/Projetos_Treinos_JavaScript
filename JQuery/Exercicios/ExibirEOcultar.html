@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--CARREGANDO ARQUIVO JQUERY-->
+    <script src="/JQuery/jquery-3.7.1.min.js"></script>
+    <!--SCRIPT DO JQUERY-->
+    <script>
+        // QUANDO O DOCUMENTO JA FOR CARREGADO
+        $(document).ready(function(){
+            //AQUI É ONDE FICARÁ TODO O CÓDIGO:
+
+            //EXIBIR
+            $("#exibir").click(function(){
+                $("#logo").show();
+            });
+
+            //OCULTAR
+            $('#ocultar').click(function(){
+                $("#logo").hide();
+            });
+
+        });
+
+
+    </script>
+</head>
+<body>
+    
+    <button id="exibir">Exibir</button>
+    <button id="ocultar">Ocultar</button>
+
+    <img id="logo" src="/JQuery/imagens/jQueryLogo.jpeg" alt="Imagem JQuery">
+
+</body>
+</html>

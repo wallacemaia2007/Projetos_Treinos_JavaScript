@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+
+        div{
+            width: 100px;
+            height: 80px;
+            background-color: green;
+
+        }
+
+    </style>
+
+    <title>Efeito Animate</title>
+    <!--CARREGANDO ARQUIVO JQUERY-->
+    <script src="/JQuery/jquery-3.7.1.min.js""></script>
+    <!--SCRIPT DO JQUERY-->
+    <script>
+        // QUANDO O DOCUMENTO JA FOR CARREGADO
+        $(document).ready(function(){
+            //AQUI É ONDE FICARÁ TODO O CÓDIGO:
+
+
+
+            //Com um clique
+            $("button").click(function(){
+                $("div").animate({
+                    width:"400px",
+                    height:"400px",
+                })
+            })
+            //Com 2 cliques
+            $("button").dblclick(function(){
+                $("div").animate({
+                    width:"900px",
+                    height:"900px"
+                })
+            })
+
+            /*
+            A função animate ela cria estilos css animados pelo js
+            com a função de click mudamos o tamanho da caixa!
+            A função animate não pode ser usada para animar propriedades
+            não numéricas como background-color,transform,box-shadow...
+            */
+
+            
+
+
+        });
+
+
+    </script>
+</head>
+<body>
+
+    <button>Clique Aqui</button>
+    <hr>
+    <div>
+
+    </div>
+    
+</body>
+</html>
