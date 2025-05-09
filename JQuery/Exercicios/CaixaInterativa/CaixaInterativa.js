@@ -22,5 +22,6 @@ $(document).ready(function(){
     });
     $(document).on("click", "#botaoClique", function(){
         $("div#caixa").fadeIn();
+
     });
 });

@@ -2,7 +2,6 @@
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     align-content: center;
-    
 }
 #menu{
     background-color: white;
@@ -19,9 +18,6 @@ div#caixa{
     text-align: center;
     color: white;
 }
-a{
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-}
+
+
 
